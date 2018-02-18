@@ -10,6 +10,7 @@ class Project
     @backers << backer
     self.backers.collect do |back|
       back.add_backer
+    end
   end
 
   def backers
