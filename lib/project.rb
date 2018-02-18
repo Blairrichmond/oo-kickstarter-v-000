@@ -8,8 +8,6 @@ class Project
 
   def add_backer(backer)
     @backers << backer
-    self.backers.collect do |back|
-      back.add_backer
     end
   end
 
