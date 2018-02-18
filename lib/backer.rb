@@ -13,4 +13,8 @@ class Backer
   def backed_projects
     @projects
   end
+
+  def back_project
+    self.add_backer
+  end
 end
